@@ -84,7 +84,7 @@ def buy(buy_time,mall):
     
 
 if __name__ == "__main__":
-    url=input("请输入商品链接:")
+    url=input("https://chaoshi.detail.tmall.com/item.htm?id=639611631398:")
     mall=input("请选择商城（淘宝 1  天猫 2  输入数字即可）： ")
     bt=input("请输入开售时间【2019-02-15（空格）12:55:50】")
     login(url,mall)
